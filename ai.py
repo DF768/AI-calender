@@ -1,7 +1,7 @@
 import requests
 import json
 from openai import OpenAI
-
+#这个版本废弃使用
 class AIClient:
     def __init__(self, base_url="http://127.0.0.1:11434/v1"):
         self.base_url = base_url 

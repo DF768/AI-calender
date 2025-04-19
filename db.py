@@ -1,3 +1,8 @@
+#这里是未来加入的数据库功能，不知道未来可不可以加进去。
+
+
+
+
 import sqlite3
 from datetime import datetime
 

@@ -1,6 +1,6 @@
 import sys
-from ui import CalendarWindow
-from ui import QApplication
+from uiendof import CalendarWindow
+from uiendof import QApplication
 
 def main():
     
