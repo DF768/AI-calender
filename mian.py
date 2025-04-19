@@ -1,0 +1,21 @@
+import sys
+from ui import CalendarWindow
+from ui import QApplication
+
+def main():
+    
+
+    
+    # 启动GUI
+    app = QApplication(sys.argv)
+    window = CalendarWindow()
+    window.show()
+    sys.exit(app.exec_())  
+
+
+
+if __name__ == "__main__":
+    main()
+
+
+
