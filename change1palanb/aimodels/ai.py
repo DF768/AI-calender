@@ -3,8 +3,8 @@ from typing import Optional, Dict
 from openai import OpenAI
 from PyQt5.QtCore import QDate, QTime, QDateTime
 
-from ..utils.config import config
-from ..utils.logger import logger
+from ..logged.config import config
+from ..logged.og import logger
 
 class AIClient:
     def __init__(self):

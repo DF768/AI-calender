@@ -8,9 +8,9 @@ from PyQt5.QtCore import Qt, QTime, QDateTime
 from PyQt5.QtGui import QIcon
 from typing import Dict
 
-from ..models.ai_client import AIClient
-from models.calendar import date
-from logged import logger
+from ..aimodels.ai import AIClient
+from ..aimodels.date import Calendar as date
+from ..logged import og
 
 class CalendarWindow(QMainWindow):
     def __init__(self):
