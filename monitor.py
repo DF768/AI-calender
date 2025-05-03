@@ -1,3 +1,7 @@
+#vison of photo 
+#图片的识别，但是这个方案废弃使用
+
+
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from PIL import Image
