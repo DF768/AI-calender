@@ -3,7 +3,7 @@ from typing import Optional, Dict
 from openai import OpenAI
 from PyQt5.QtCore import QDate, QTime, QDateTime
 # from PyQt5.QtWidgets import QMessageBox
-#适用PyQt5的QMessageBox来显示错误信息
+#适
 from ..logged.config import config
 from ..logged.og import logger
 
