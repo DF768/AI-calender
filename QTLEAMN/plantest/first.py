@@ -18,7 +18,6 @@ class GreenTravelApp(QWidget):
         layout.addWidget(QLabel("出发地:"))
         self.start_location = QLineEdit()
         layout.addWidget(self.start_location)
-
         layout.addWidget(QLabel("目的地:"))
         self.end_location = QLineEdit()
         layout.addWidget(self.end_location)
@@ -30,6 +29,7 @@ class GreenTravelApp(QWidget):
         self.travel_mode.addItem("骑行")
         self.travel_mode.addItem("公交")
         self.travel_mode.addItem("地铁")
+        self.travel_mode.addItem("自家")
         layout.addWidget(self.travel_mode)
 
         # 计算按钮
